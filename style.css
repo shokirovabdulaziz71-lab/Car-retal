@@ -46,6 +46,12 @@ body {
 .site-header {
   padding: 41px 0;
   background-color: #181818;
+  position: absolute;
+  position: fixed;
+  z-index: 50;
+  top: 0;
+  right: 0;
+  left: 0;
 }
 .logotip {
   width: 200px;
@@ -742,21 +748,12 @@ body {
   padding-top: 120px;
 }
 .didit-wrapper {
-  display: flex;
-  align-items: center;
-}
-.didit {
-  color: white;
-  padding-top: 120px;
-  padding-left: 270px;
-}
-.dididi {
-  color: white;
-  width: 648px;
-}
-.di-text {
   font-style: bold;
   font-size: 48px;
+  text-align: start;
+  display: flex;
+  color: white;
+  align-items: center;
 }
 .without {
   font-size: 28px;
@@ -770,10 +767,111 @@ body {
 }
 .d-color {
   color: white;
-  width: 1320px;
+  width: 760px;
+  padding-left: 112px;
 }
 .bip {
   padding-left: 270px;
   display: flex;
   align-items: center;
+  margin-top: 120px;
+  padding-bottom: 120px;
+}
+.bibip {
+  color: white;
+}
+.without-12 {
+  color: rgba(255, 255, 255, 0.635);
+  width: 648px;
+  font-size: 18px;
+}
+.didit {
+  text-align: start;
+  width: 648px;
+  align-items: center;
+}
+.di-text {
+  font-size: 48px;
+}
+.radius {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 80px;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  gap: 101px;
+}
+.foot {
+  display: flex;
+  width: 1234px;
+  height: 748px;
+  gap: 136px;
+  margin-top: 120px;
+  text-align: center;
+}
+.girl-img {
+  width: 476px;
+  height: 748px;
+}
+.buble-1 {
+  background-color: #1f1f1f;
+  color: white;
+  cursor: pointer;
+  padding: 28px 160px;
+  border-radius: 10px;
+  border: none;
+}
+.label {
+  color: black;
+  display: flex;
+  align-items: center;
+  padding-left: 0;
+}
+.girll {
+  align-items: center;
+  width: 622px;
+}
+.p123 {
+  display: flex;
+}
+.footer-bgc {
+  background-color: #1d1d1d;
+  color: white;
+}
+.fot-wrapper {
+  display: flex;
+  gap: 128px;
+  padding-top: 120px;
+  padding-bottom: 96px;
+}
+.ul-wrapper {
+  display: flex;
+  width: 98px;
+  gap: 110px;
+  list-style-type: none;
+}
+.logo-div {
+  display: flex;
+  flex-direction: column;
+  width: 381;
+}
+.btn-123 {
+  background-color: transparent;
+  color: white;
+  border-radius: 8px;
+  padding: 12px 20px;
+  border: solid 2px white;
+}
+.p-color1 {
+  color: rgba(255, 255, 255, 0.605);
+  font-size: 16px;
+  font-weight: 500px;
+}
+.pad {
+  padding-top: 10px;
+}
+.logg {
+  width: 381px;
+  height: 61px;
 }
