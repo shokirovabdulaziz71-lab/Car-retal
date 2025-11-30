@@ -801,6 +801,7 @@ body {
   align-items: center;
   list-style-type: none;
   gap: 101px;
+  box-shadow: rgba(0, 0, 0, 0.703) 0px 5px 15px;
 }
 .foot {
   display: flex;
@@ -809,6 +810,7 @@ body {
   gap: 136px;
   margin-top: 120px;
   text-align: center;
+  padding-left: 123px;
 }
 .girl-img {
   width: 476px;
@@ -862,6 +864,7 @@ body {
   border-radius: 8px;
   padding: 12px 20px;
   border: solid 2px white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .p-color1 {
   color: rgba(255, 255, 255, 0.605);
@@ -874,4 +877,11 @@ body {
 .logg {
   width: 381px;
   height: 61px;
+}
+.btn-123:hover {
+  color: black;
+  background-color: white;
+  border: color black;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
